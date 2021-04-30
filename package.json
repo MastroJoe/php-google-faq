@@ -1,0 +1,29 @@
+{
+  "name": "php-google-faq",
+  "version": "1.0.0",
+  "description": "php-google-faq",
+  "main": "webpack.mix.js",
+  "dependencies": {
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MastroJoe/php-google-faq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MastroJoe/php-google-faq/issues"
+  },
+  "homepage": "https://github.com/MastroJoe/php-google-faq#readme"
+}
