@@ -14,22 +14,55 @@
 </head>
 <body style="width: 100%;height: 100vh;">
   <header class="container-fluid" style="height: 100px;">
-    <div class="head-top">
+    <div class="head-top plr-20">
       <div class="title">
-        <img src="" alt="">
-        Privacy e termini
+        Google Privacy e termini
       </div>
-
+      <div class="icons">
+        <i class="fas fa-ellipsis-v"></i>
+        <img class="user" src="" alt="">
+      </div>
     </div>
-    <div class="head-bottom ">
-
+    <div class="head-bottom">
+      <ul class="links">
+        <li>Introduzione</li>
+        <li>Norme sulla privacy</li>
+        <li>Termini di servizio</li>
+        <li>Tecnologie</li>
+        <li class="selected">Domande frequenti</li>
+      </ul>
     </div>
   </header>
-  <main>
+  <main class="container-fluid pt-120">
+    <div class="container">
 
+      <?php
+
+      ?>
+
+    </div>
   </main>
-  <footer>
-
+  <footer class="container-fluid" style="height: 40px;">
+    <div class="container">
+      <ul class="links">
+        <li>Google</li>
+        <li>Tutto su Google</li>
+        <li>Privacy</li>
+        <li>Termini</li>
+      </ul>
+      <div class="language">
+        <select id="languages" name="languages">
+          <option value="it">Italian - italiano</option>
+          <option value="en">English</option>
+          <option value="en-AU">English (Australia)</option>
+          <option value="en-GB">English (United Kingdom)</option>
+          <option value="en-US">English (United States)</option>
+          <option value="de">German - Deutsch</option>
+          <option value="ja">Japanese - 日本語</option>
+          <option value="es-ES">Spanish (Spain) - español (España)</option>
+        </select>
+      </div>
+    </div>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" charset="utf-8"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
