@@ -29,7 +29,9 @@
         <li>Norme sulla privacy</li>
         <li>Termini di servizio</li>
         <li>Tecnologie</li>
-        <li class="selected">Domande frequenti</li>
+        <li>
+          <span class="selected">Domande frequenti</span>
+        </li>
       </ul>
     </div>
   </header>

@@ -280,12 +280,21 @@ header .head-top {
 }
 header .head-bottom {
   display: flex;
+  border-bottom: 1px solid;
 }
-header .head-bottom .links {
+header .head-bottom ul {
   display: flex;
+  align-items: center;
+  margin: 0;
 }
-header .head-bottom .links li {
-  padding: 0 20px;
+header .head-bottom ul li {
+  padding: 10px 20px;
+}
+header .head-bottom ul li .selected {
+  color: #3367d6;
+  border-bottom: 3px solid;
+  border-color: #3367d6;
+  padding-bottom: 9px;
 }
 
 main {

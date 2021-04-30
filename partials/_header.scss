@@ -14,10 +14,19 @@ header {
   }
   .head-bottom {
     display: flex;
-    .links {
+    border-bottom: 1px solid;
+    ul {
       display: flex;
+      align-items: center;
+      margin: 0;
       li {
-        padding: 0 20px;
+        padding: 10px 20px;
+        .selected {
+          color: $color-selected;
+          border-bottom: 3px solid;
+          border-color: $color-selected;
+          padding-bottom: 9px;
+        }
       }
     }
   }
