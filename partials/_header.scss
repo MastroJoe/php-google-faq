@@ -6,7 +6,9 @@ header {
   .head-top {
     @include flex-center-between;
     .title {
-
+      font-family: $font;
+      font-size: 22px;
+      color: $color-grey;
     }
     .icons {
 
@@ -21,11 +23,14 @@ header {
       margin: 0;
       li {
         padding: 10px 20px;
+        font-family: $font;
+        font-size: 15px;
+        color: $color-grey;
         .selected {
           color: $color-selected;
-          border-bottom: 3px solid;
+          border-bottom: 4px solid;
           border-color: $color-selected;
-          padding-bottom: 9px;
+          padding-bottom: 10px;
         }
       }
     }
