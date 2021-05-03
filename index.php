@@ -75,7 +75,6 @@ $faqs = [
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="dist/css/master.css">
     <title>Google FAQ</title>
 </head>
@@ -84,13 +83,14 @@ $faqs = [
     <div class="container-fluid">
       <div class="head-top plr-20 pt-10">
         <div class="title">
-          Google Privacy e termini
+          <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo">
+          Privacy e termini
         </div>
         <div class="icons">
           <a href="#">
             <i class="fas fa-ellipsis-v"></i>
           </a>
-          <img class="user" src="" alt="">
+          <img class="user" src="dist/img/user.png" alt="user" style="height: 30px; border-radius: 50%;">
         </div>
       </div>
       <div class="head-bottom">

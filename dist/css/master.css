@@ -26,7 +26,7 @@ h2 {
 }
 
 .container {
-  width: 60%;
+  width: 50%;
   height: 100%;
   margin: 0 auto;
 }
@@ -288,7 +288,7 @@ header .head-top {
 }
 header .head-top .title {
   font-family: "Product Sans", Arial, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   color: #5f6368;
 }
 header .head-bottom {
