@@ -1,8 +1,11 @@
 // containers
 .container {
   width: 50%;
-  height: 100%;
   margin: 0 auto;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .container-fluid {
@@ -17,22 +20,6 @@
   position: unset;
   border: 0;
 }
-
-// buttons
-// .btn {
-//   padding: 18px 40px;
-//   line-height: 21px;
-//   font-size: 18px;
-//   font-weight: 700;
-//   border-radius: 0;
-//   border-width: 2px;
-//   border-color: ;
-//   color: ;
-//   &:hover {
-//     color: ;
-//     opacity: 0.6;
-//   }
-// }
 
 // text
 .upper {
